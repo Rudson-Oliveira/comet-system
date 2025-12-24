@@ -1,0 +1,69 @@
+{
+    "paths":  {
+                  "agent":  "C:\\Users\\rudpa\\obsidian-agente\\agent",
+                  "vault":  "C:\\Users\\rudpa\\Downloads\\OneDrive\\Área de Trabalho\\APP FACULDADES,Cursos e Telegram\\Vida & Estudo\\Vida & Estudo",
+                  "frontend":  "C:\\Users\\rudpa\\obsidian-agente\\frontend",
+                  "comet_bridge":  "C:\\Users\\rudpa\\COMET",
+                  "config":  "C:\\Users\\rudpa\\.obsidian-agent\\config.json",
+                  "obsidian_agente":  "C:\\Users\\rudpa\\obsidian-agente"
+              },
+    "version":  "2.0.0",
+    "services":  {
+                     "obsidian_agent":  {
+                                            "url":  "http://localhost:5001",
+                                            "port":  5001
+                                        },
+                     "ngrok":  {
+                                   "dashboard":  "http://localhost:4040",
+                                   "port":  4040
+                               },
+                     "comet_bridge":  {
+                                          "url":  "http://localhost:5000",
+                                          "port":  5000
+                                      },
+                     "obsidian_rest_api":  {
+                                               "port":  27124,
+                                               "url":  "https://localhost:27124",
+                                               "api_key":  "YOUR_OBSIDIAN_API_KEY"
+                                           }
+                 },
+    "github":  {
+                   "repo":  "Rudson-Oliveira/obsidian-agente",
+                   "url":  "https://github.com/Rudson-Oliveira/obsidian-agente"
+               },
+    "system":  {
+                   "user":  "rudpa",
+                   "os":  "Windows",
+                   "home":  "C:\\Users\\rudpa"
+               },
+    "last_updated":  "2025-12-24",
+    "rules":  {
+                  "create_new_agents":  false,
+                  "language":  "pt-BR",
+                  "autonomy":  "full",
+                  "save_to_github":  true
+              },
+    "apis":  {
+                 "openai":  {
+                                "key":  "YOUR_OPENAI_API_KEY"
+                            },
+                 "abacus":  {
+                                "drive_key":  "YOUR_ABACUS_DRIVE_KEY",
+                                "gpt_key":  "YOUR_ABACUS_GPT_KEY"
+                            },
+                 "claude":  {
+                                "key":  "YOUR_CLAUDE_API_KEY"
+                            },
+                 "gemini":  {
+                                "key":  "YOUR_GEMINI_API_KEY",
+                                "key2":  "YOUR_GEMINI_API_KEY_2"
+                            },
+                 "deepai":  {
+                                "key":  "YOUR_DEEPAI_KEY"
+                            },
+                 "perplexity":  {
+                                    "key":  "YOUR_PERPLEXITY_KEY"
+                                }
+             },
+    "_note": "Replace YOUR_*_KEY placeholders with your actual API keys. Do not commit real keys to GitHub."
+}

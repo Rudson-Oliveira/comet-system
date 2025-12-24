@@ -1,0 +1,750 @@
+{
+  "plugins": {
+    "ai-commander": {
+      "id": "ai-commander",
+      "name": "AI Commander",
+      "version": "1.3.4",
+      "description": "Generate audio transcripts, images, and text in context of PDF attachments or web search results using OpenAI (ChatGPT) and Bing API.",
+      "author": "Simon Yang",
+      "type": "community",
+      "category": "ai",
+      "commands": [
+        "ai-commander:generate-text",
+        "ai-commander:generate-image",
+        "ai-commander:transcribe-audio"
+      ],
+      "triggers": [
+        "ai commander",
+        "chatgpt",
+        "gerar texto",
+        "transcrever",
+        "gerar imagem"
+      ],
+      "integrations": [
+        "obsidian-textgenerator-plugin",
+        "chat-with-bard"
+      ],
+      "api_required": [
+        "openai"
+      ],
+      "prompt_examples": [
+        "gerar texto com IA",
+        "transcrever áudio",
+        "criar imagem com IA"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.589222"
+    },
+    "browser-interface": {
+      "id": "browser-interface",
+      "name": "Browser Interface",
+      "version": "1.0.6",
+      "description": "Save and reopen browser tabs using your vault and a browser extension.",
+      "author": "Jason Lieb",
+      "type": "community",
+      "category": "integration",
+      "commands": [
+        "browser-interface:save-tabs"
+      ],
+      "triggers": [
+        "browser",
+        "navegador",
+        "abas",
+        "tabs"
+      ],
+      "integrations": [
+        "open-gate"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "salvar abas do navegador",
+        "importar tabs"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.589737"
+    },
+    "chat-with-bard": {
+      "id": "chat-with-bard",
+      "name": "Gemini AI Assistant",
+      "version": "0.3.1",
+      "description": "Use Google Gemini directly in obsidian for free.",
+      "author": "Artel250",
+      "type": "community",
+      "category": "ai",
+      "commands": [
+        "chat-with-bard:open-chat"
+      ],
+      "triggers": [
+        "gemini",
+        "bard",
+        "google ai",
+        "chat gemini"
+      ],
+      "integrations": [
+        "ai-commander",
+        "obsidian-textgenerator-plugin"
+      ],
+      "api_required": [
+        "gemini"
+      ],
+      "prompt_examples": [
+        "abrir chat gemini",
+        "perguntar ao gemini"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.590322"
+    },
+    "cmdr": {
+      "id": "cmdr",
+      "name": "Commander",
+      "version": "0.5.4",
+      "description": "Customize your workspace by adding commands everywhere, create Macros and supercharge your mobile toolbar.",
+      "author": "jsmorabito & phibr0",
+      "type": "community",
+      "category": "productivity",
+      "commands": [
+        "cmdr:open-commander"
+      ],
+      "triggers": [
+        "commander",
+        "macro",
+        "comando personalizado",
+        "atalho"
+      ],
+      "integrations": [
+        "command-palette"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "criar macro",
+        "adicionar comando",
+        "configurar atalho"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.590988"
+    },
+    "dataview": {
+      "id": "dataview",
+      "name": "Dataview",
+      "version": "0.5.68",
+      "description": "Complex data views for the data-obsessed.",
+      "author": "Michael Brenan <blacksmithgu@gmail.com>",
+      "type": "community",
+      "category": "data",
+      "commands": [
+        "dataview:dataview-inline-field-",
+        "dataview:dataview-inline-field-",
+        "dataview:dataview-force-refresh-views",
+        "dataview:dataview-drop-cache",
+        "dataview:dataview-rebuild-current-view"
+      ],
+      "triggers": [
+        "dataview",
+        "consulta",
+        "query",
+        "tabela",
+        "lista dinâmica"
+      ],
+      "integrations": [
+        "obsidian-tasks-plugin",
+        "templater-obsidian"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "criar consulta dataview",
+        "listar notas com tag X",
+        "mostrar tarefas pendentes"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.596098"
+    },
+    "obsidian-admonition": {
+      "id": "obsidian-admonition",
+      "name": "Admonition",
+      "version": "10.3.2",
+      "description": "Enhanced callouts for Obsidian.md",
+      "author": "Jeremy Valentine",
+      "type": "community",
+      "category": "visual",
+      "commands": [
+        "obsidian-admonition:insert-admonition"
+      ],
+      "triggers": [
+        "admonition",
+        "callout",
+        "destaque",
+        "aviso",
+        "nota",
+        "dica"
+      ],
+      "integrations": [],
+      "api_required": [],
+      "prompt_examples": [
+        "inserir callout",
+        "criar admonition",
+        "adicionar aviso"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.597468"
+    },
+    "obsidian-excalidraw-plugin": {
+      "id": "obsidian-excalidraw-plugin",
+      "name": "Excalidraw",
+      "version": "2.16.1",
+      "description": "An Obsidian plugin to edit and view Excalidraw drawings",
+      "author": "Zsolt Viczian",
+      "type": "community",
+      "category": "visual",
+      "commands": [
+        "obsidian-excalidraw-plugin:excalidraw-new",
+        "obsidian-excalidraw-plugin:excalidraw-open"
+      ],
+      "triggers": [
+        "excalidraw",
+        "desenho",
+        "diagrama",
+        "sketch",
+        "rabisco"
+      ],
+      "integrations": [
+        "canvas"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "criar desenho",
+        "novo excalidraw",
+        "abrir diagrama"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.598152"
+    },
+    "obsidian-local-rest-api": {
+      "id": "obsidian-local-rest-api",
+      "name": "Local REST API",
+      "version": "3.2.0",
+      "description": "Get, change or otherwise interact with your notes in Obsidian via a REST API.",
+      "author": "Adam Coddington",
+      "type": "community",
+      "category": "integration",
+      "commands": [
+        "obsidian-local-rest-api:global-search:open",
+        "obsidian-local-rest-api:graph:open"
+      ],
+      "triggers": [
+        "api",
+        "rest",
+        "automação",
+        "integração externa"
+      ],
+      "integrations": [
+        "*"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "usar api do obsidian",
+        "automação via api"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.603470"
+    },
+    "obsidian-tasks-plugin": {
+      "id": "obsidian-tasks-plugin",
+      "name": "Tasks",
+      "version": "7.22.0",
+      "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering.",
+      "author": "Clare Macrae and Ilyas Landikov (created by Martin Schenck)",
+      "type": "community",
+      "category": "productivity",
+      "commands": [
+        "obsidian-tasks-plugin:toggle-done",
+        "obsidian-tasks-plugin:create-or-edit-task"
+      ],
+      "triggers": [
+        "tarefa",
+        "task",
+        "todo",
+        "pendente",
+        "concluir",
+        "prazo"
+      ],
+      "integrations": [
+        "dataview",
+        "daily-notes",
+        "templater-obsidian"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "criar tarefa",
+        "listar tarefas pendentes",
+        "marcar como concluída",
+        "tarefas de hoje"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.604524"
+    },
+    "obsidian-textgenerator-plugin": {
+      "id": "obsidian-textgenerator-plugin",
+      "name": "Text Generator",
+      "version": "0.7.52",
+      "description": "Text generation using AI",
+      "author": "Noureddine Haouari",
+      "type": "community",
+      "category": "ai",
+      "commands": [
+        "obsidian-textgenerator-plugin:generate-text",
+        "obsidian-textgenerator-plugin:generate-text-with-metadata"
+      ],
+      "triggers": [
+        "gerar texto",
+        "text generator",
+        "completar",
+        "expandir"
+      ],
+      "integrations": [
+        "ai-commander",
+        "chat-with-bard"
+      ],
+      "api_required": [
+        "openai",
+        "gemini"
+      ],
+      "prompt_examples": [
+        "gerar texto",
+        "completar parágrafo",
+        "expandir ideia"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.605026"
+    },
+    "obsidian42-brat": {
+      "id": "obsidian42-brat",
+      "name": "BRAT",
+      "version": "1.3.2",
+      "description": "Easily install a beta version of a plugin for testing.",
+      "author": "TfTHacker",
+      "type": "community",
+      "category": "utility",
+      "commands": [
+        "obsidian42-brat:BRAT-AddBetaPlugin"
+      ],
+      "triggers": [
+        "brat",
+        "plugin beta",
+        "instalar beta"
+      ],
+      "integrations": [],
+      "api_required": [],
+      "prompt_examples": [
+        "instalar plugin beta",
+        "adicionar plugin via BRAT"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.605389"
+    },
+    "omnisearch": {
+      "id": "omnisearch",
+      "name": "Omnisearch",
+      "version": "1.27.3",
+      "description": "A search engine that just works",
+      "author": "Simon Cambier",
+      "type": "community",
+      "category": "search",
+      "commands": [
+        "omnisearch:show-modal"
+      ],
+      "triggers": [
+        "buscar",
+        "pesquisar",
+        "encontrar",
+        "search",
+        "omnisearch"
+      ],
+      "integrations": [
+        "switcher",
+        "backlinks"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "buscar no vault",
+        "pesquisar termo",
+        "encontrar nota"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.605868"
+    },
+    "open-gate": {
+      "id": "open-gate",
+      "name": "Open Gate",
+      "version": "1.11.10",
+      "description": "Embed any website to Obsidian, you have anything you need in one place. You can browse website and take notes at the same time. e.g. Ask ChatGPT and copy the answer directly to your note.",
+      "author": "duocnv",
+      "type": "community",
+      "category": "integration",
+      "commands": [
+        "open-gate:open-gate"
+      ],
+      "triggers": [
+        "open gate",
+        "incorporar site",
+        "embed",
+        "website"
+      ],
+      "integrations": [
+        "browser-interface"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "abrir site no obsidian",
+        "incorporar página"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.606514"
+    },
+    "pane-relief": {
+      "id": "pane-relief",
+      "name": "Pane Relief",
+      "version": "0.5.9",
+      "description": "Per-tab history, hotkeys for pane/tab movement, navigation, sliding workspace, and more",
+      "author": "PJ Eby",
+      "type": "community",
+      "category": "navigation",
+      "commands": [
+        "pane-relief:go-prev",
+        "pane-relief:go-next",
+        "pane-relief:go-1st",
+        "pane-relief:go-last"
+      ],
+      "triggers": [
+        "painel",
+        "aba",
+        "navegar",
+        "próximo",
+        "anterior"
+      ],
+      "integrations": [],
+      "api_required": [],
+      "prompt_examples": [
+        "ir para próxima aba",
+        "voltar painel anterior"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.607181"
+    },
+    "templater-obsidian": {
+      "id": "templater-obsidian",
+      "name": "Templater",
+      "version": "2.16.2",
+      "description": "Create and use templates",
+      "author": "SilentVoid",
+      "type": "community",
+      "category": "productivity",
+      "commands": [
+        "templater-obsidian:insert-templater",
+        "templater-obsidian:create-new-note-from-template"
+      ],
+      "triggers": [
+        "templater",
+        "template avançado",
+        "modelo js",
+        "criar nota template"
+      ],
+      "integrations": [
+        "templates",
+        "daily-notes",
+        "dataview"
+      ],
+      "api_required": [],
+      "prompt_examples": [
+        "inserir template",
+        "criar nota com template",
+        "aplicar templater"
+      ],
+      "enabled": true,
+      "installed": true,
+      "registered_at": "2025-12-16T13:32:22.607730"
+    },
+    "backlinks": {
+      "name": "Backlinks",
+      "type": "native",
+      "category": "navigation",
+      "description": "Mostra links que apontam para a nota atual",
+      "commands": [
+        "app:toggle-backlinks"
+      ],
+      "triggers": [
+        "backlinks",
+        "links de volta",
+        "quem linka",
+        "referências"
+      ],
+      "integrations": [
+        "dataview",
+        "omnisearch"
+      ],
+      "prompt_examples": [
+        "mostrar backlinks",
+        "quem linka para esta nota",
+        "ver referências"
+      ],
+      "id": "backlinks",
+      "enabled": true,
+      "installed": true
+    },
+    "canvas": {
+      "name": "Canvas",
+      "type": "native",
+      "category": "visual",
+      "description": "Cria quadros visuais para organizar notas e ideias",
+      "commands": [
+        "canvas:new-file",
+        "canvas:convert-to-file"
+      ],
+      "triggers": [
+        "canvas",
+        "quadro",
+        "mapa mental",
+        "diagrama"
+      ],
+      "integrations": [
+        "excalidraw"
+      ],
+      "prompt_examples": [
+        "criar canvas",
+        "novo quadro",
+        "abrir canvas"
+      ],
+      "id": "canvas",
+      "enabled": true,
+      "installed": true
+    },
+    "note-composer": {
+      "name": "Compositor de Notas",
+      "type": "native",
+      "category": "editing",
+      "description": "Mescla e divide notas",
+      "commands": [
+        "note-composer:merge-file",
+        "note-composer:split-file"
+      ],
+      "triggers": [
+        "mesclar",
+        "dividir",
+        "juntar notas",
+        "separar nota"
+      ],
+      "integrations": [],
+      "prompt_examples": [
+        "mesclar notas",
+        "dividir nota",
+        "juntar arquivos"
+      ],
+      "id": "note-composer",
+      "enabled": true,
+      "installed": true
+    },
+    "page-preview": {
+      "name": "Espiar Página",
+      "type": "native",
+      "category": "navigation",
+      "description": "Mostra preview de links ao passar o mouse",
+      "commands": [],
+      "triggers": [
+        "preview",
+        "espiar",
+        "visualizar link"
+      ],
+      "integrations": [],
+      "prompt_examples": [],
+      "id": "page-preview",
+      "enabled": true,
+      "installed": true
+    },
+    "templates": {
+      "name": "Modelos",
+      "type": "native",
+      "category": "productivity",
+      "description": "Insere templates em notas",
+      "commands": [
+        "templates:insert-template"
+      ],
+      "triggers": [
+        "template",
+        "modelo",
+        "inserir modelo"
+      ],
+      "integrations": [
+        "templater-obsidian"
+      ],
+      "prompt_examples": [
+        "inserir template",
+        "usar modelo",
+        "aplicar template"
+      ],
+      "id": "templates",
+      "enabled": true,
+      "installed": true
+    },
+    "switcher": {
+      "name": "Navegação Rápida",
+      "type": "native",
+      "category": "navigation",
+      "description": "Abre notas rapidamente pelo nome",
+      "commands": [
+        "switcher:open"
+      ],
+      "triggers": [
+        "abrir nota",
+        "ir para",
+        "navegar",
+        "buscar nota"
+      ],
+      "integrations": [
+        "omnisearch"
+      ],
+      "prompt_examples": [
+        "abrir nota X",
+        "ir para nota",
+        "navegar para"
+      ],
+      "id": "switcher",
+      "enabled": true,
+      "installed": true
+    },
+    "daily-notes": {
+      "name": "Notas Diárias",
+      "type": "native",
+      "category": "productivity",
+      "description": "Cria e gerencia notas diárias",
+      "commands": [
+        "daily-notes:open",
+        "daily-notes:open-prev",
+        "daily-notes:open-next"
+      ],
+      "triggers": [
+        "nota de hoje",
+        "diário",
+        "daily note",
+        "nota diária",
+        "hoje"
+      ],
+      "integrations": [
+        "templater-obsidian",
+        "tasks"
+      ],
+      "prompt_examples": [
+        "abrir nota de hoje",
+        "criar nota diária",
+        "nota de ontem",
+        "nota de amanhã"
+      ],
+      "id": "daily-notes",
+      "enabled": true,
+      "installed": true
+    },
+    "command-palette": {
+      "name": "Paleta de Comandos",
+      "type": "native",
+      "category": "navigation",
+      "description": "Acessa todos os comandos do Obsidian",
+      "commands": [
+        "command-palette:open"
+      ],
+      "triggers": [
+        "comandos",
+        "paleta",
+        "ctrl+p"
+      ],
+      "integrations": [
+        "cmdr"
+      ],
+      "prompt_examples": [
+        "abrir paleta de comandos",
+        "mostrar comandos"
+      ],
+      "id": "command-palette",
+      "enabled": true,
+      "installed": true
+    },
+    "file-recovery": {
+      "name": "Recuperação de Arquivos",
+      "type": "native",
+      "category": "utility",
+      "description": "Recupera versões anteriores de notas",
+      "commands": [
+        "file-recovery:open"
+      ],
+      "triggers": [
+        "recuperar",
+        "versão anterior",
+        "histórico",
+        "backup"
+      ],
+      "integrations": [],
+      "prompt_examples": [
+        "recuperar nota",
+        "ver histórico",
+        "versão anterior"
+      ],
+      "id": "file-recovery",
+      "enabled": true,
+      "installed": true
+    },
+    "sync": {
+      "name": "Sincronização",
+      "type": "native",
+      "category": "utility",
+      "description": "Sincroniza vault entre dispositivos",
+      "commands": [
+        "sync:view-version-history"
+      ],
+      "triggers": [
+        "sincronizar",
+        "sync",
+        "backup nuvem"
+      ],
+      "integrations": [],
+      "prompt_examples": [
+        "sincronizar vault",
+        "ver histórico de sync"
+      ],
+      "id": "sync",
+      "enabled": true,
+      "installed": true
+    },
+    "publish": {
+      "name": "Visualizador Web",
+      "type": "native",
+      "category": "utility",
+      "description": "Publica notas na web",
+      "commands": [],
+      "triggers": [
+        "publicar",
+        "web",
+        "publish"
+      ],
+      "integrations": [],
+      "prompt_examples": [
+        "publicar nota"
+      ],
+      "id": "publish",
+      "enabled": true,
+      "installed": true
+    }
+  },
+  "last_scan": "2025-12-16T13:32:22.607756",
+  "version": "1.0"
+}
