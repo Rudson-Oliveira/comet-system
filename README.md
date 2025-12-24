@@ -188,3 +188,16 @@ Parte do ecossistema COMET - Cognitive Operational Management & Execution Techno
 **Desenvolvido com 🧠 por Manus AI**
 
 *Última atualização: 24/12/2025*
+
+---
+
+## 🆕 Agente PicaPau (v1.1.0)
+
+O COMET Bridge Vision agora inclui o **Agente PicaPau**, um executor de comandos visuais:
+
+- **Comandos em linguagem natural**: "PicaPau abra o Google e pesquise por clima"
+- **Automação com Playwright**: Navegação, cliques, digitação
+- **Validação visual com LLaVA**: Confirma sucesso das ações
+- **Credenciais seguras**: Criptografia Fernet (AES-128)
+
+Veja o repositório [comet-bridge-vision](https://github.com/Rudson-Oliveira/comet-bridge-vision) para mais detalhes.
